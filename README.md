@@ -6,7 +6,7 @@ Further modified from the original thesis for minimalistic look and feel.
 
 ## Application Download
 
-[Current Mac Release](https://github.com/fhildeb/n-queens-puzzle/releases)
+[Current Release for Mac, Windows, or Linux](https://github.com/fhildeb/n-queens-puzzle/releases)
 
 ## Features
 
