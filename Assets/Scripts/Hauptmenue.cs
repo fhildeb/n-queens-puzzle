@@ -91,6 +91,7 @@ public class Hauptmenue : MonoBehaviour
         }
         catch (System.Exception ex)
         {
+            Debug.Log(ex);
             error.text = "Input is not a number.";
             loesung.gameObject.SetActive(false);
             iterativ.gameObject.SetActive(false);
@@ -139,7 +140,7 @@ public class Hauptmenue : MonoBehaviour
         SpielflaechenManager sm = GameObject.Find("Spielflaeche").GetComponent<SpielflaechenManager>();
         SpielflaechenManager.Instance.init();
         Debug.Log(sm);
-        SpielflaechenManager.Instance.Ergebnisberechnen(); 
+        SpielflaechenManager.Instance.Ergebnisberechnen();
     }
 
     //@Lukas Brüggemann
@@ -184,4 +185,3 @@ public class Hauptmenue : MonoBehaviour
         sm.StartCoroutine(SpielflaechenManager.Instance.RekursiverDurchlauf(x, 0));
     }
 }
- 
