@@ -4,6 +4,10 @@ A Visualization Program for solving the N-Queens-Puzzle as final thesis for Algo
 
 Further modified from the original thesis for minimalistic look and feel.
 
+## Application Download
+
+[Current Mac Release](https://github.com/fhildeb/n-queens-puzzle/releases)
+
 ## Features
 
 - solve N-Queens-Puzzle from 1-12 on a visual board
@@ -13,16 +17,25 @@ Further modified from the original thesis for minimalistic look and feel.
 - iterating through solutions
 - playing queens board
 
-## Participants 
+## Preview 
+
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_01.png)
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_02.png)
+
+
+## Contributors 
 
 - Mariska Steinfeldt
 - Lukas Schmitz
 - Lukas Brüggeman
 - Marc Ulbricht
 
-## Screenshots
+## Further Screenshots
 
-WIP
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_03.png)
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_04.png)
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_05.png)
+![N-Queens-Problem Screenshot](/img/n-queens-problem-screen_06.png)
 
 ## Tools
 
