@@ -7,13 +7,13 @@ public class WindowResize : MonoBehaviour
     // Start is called before the first frame update
     public void maximizeScreen()
     {
-        int newWidth = Screen.width+200;
-        Screen.SetResolution(newWidth, (newWidth/16)*9, false);
+        int biggerWidth = Screen.width+200;
+        Screen.SetResolution(biggerWidth, (biggerWidth/16)*9, false);
     }
 
     public void minimizeScreen()
     {
-        int newWidth = Screen.width-200;
-        Screen.SetResolution(newWidth, (newWidth/16)*9, false);
+        int smallerWidth = Screen.width-200;
+        Screen.SetResolution(smallerWidth, (smallerWidth/16)*9, false);
     }
 }
