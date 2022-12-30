@@ -42,6 +42,22 @@ Backtracking is based on depth-first search and belongs to the group of trial-an
 
 To only filter out unique solutions from the list, a vertical and horizontal mirror image must be created for the individual comparison. If one or more duplicates are found, they must be removed before the algorithm outputs the final solution. Therefore, all board rotations (90°, 180°, and 270°) of the referenced queen elements or their mirror images must be checked.
 
+### Iterative Walkthrough
+
+An iterative algorithm will create a pointer to the row currently being processed as well as a one-dimensional field for storing the positions of the queens per row. As long as the pointer indexes a row of the field, the algorithm checks if there is already a queen in the same column, row or diagonal row. If this is the case, this position is skipped, and the algorithm continues with the next one. If, on the other hand, the field is still free, the place is stored in the position field, and the pointer is moved to the next row.
+
+If not queen has been placed, but the end of the row is still reached, the pointer is moved to the previous row. If there already is a queen from the step before, it is moved, and the pointer is transferred backwards another time.
+
+However, if the pointer implies a row outside the field, the algorithm has found all solutions and terminates. With the help of the backtracking algorithm, all possible unique queen positions and their rotations, reflections, and combinations will be found.
+
+### Recursive Walkthrough
+
+In the recursive algorithm, a variable (N) of the chessboard size is initially created. Afterwards, an additional one-dimensional list of column arrays with size N is needed for storing the column results.
+
+The recursive function starts with the counter on zero and finished if the counter is greater than or equal to N. Before that, the recursion function is calling itself over and over again for different rows.
+
+As in the iterative algorithm, the program checks if a queen already occupies the same column, row, or diagonal row. If so, a collision flag is set to true, and the loop is exited. Here, the recursion is called again with the counter increased by one, to go backwards. If the last column, e.g. N, is reached, the result is stored in the list.
+
 ## Contributors
 
 - Mariska Steinfeldt
