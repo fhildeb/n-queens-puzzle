@@ -32,6 +32,16 @@ The "N-Queens-Puzzle" is a chess mathematical problem. Here, **N** queens are pl
 
 This program illustrates and solves the N-queen problem using two different algorithms. Based on backtracking, an iterative and recursive method can be used.
 
+### Backtracking
+
+To solve the puzzle, backtracking is used algorithmically. The problem is decomposed into hierarchically more minor problems until a solution is found. If none is found, the next higher problem is modified and restarted. A backtracking algorithm stops when no more solutions are found for the first minor subproblem.
+
+Backtracking is based on depth-first search and belongs to the group of trial-and-error methods. In contrast to a brute-force algorithm, where all possible solutions are generated, and unsuitable ones are filtered out. The backtracking method immediately skips inappropriate explanations or solution branches by testing, which makes it faster. However, it can come to very long runtimes as the depth-first search is only good for smaller solution trees, due to in-depth problem division.
+
+### Duplication Management
+
+To only filter out unique solutions from the list, a vertical and horizontal mirror image must be created for the individual comparison. If one or more duplicates are found, they must be removed before the algorithm outputs the final solution. Therefore, all board rotations (90°, 180°, and 270°) of the referenced queen elements or their mirror images must be checked.
+
 ## Contributors
 
 - Mariska Steinfeldt
