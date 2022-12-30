@@ -17,18 +17,22 @@ Further modified from the original thesis for minimalistic look and feel.
 - iterating through solutions
 - playing queens board
 
-## Description
+## The Puzzle's Origin
 
 The "N-Queens-Puzzle" is a chess mathematical problem. Here, **N** queens are placed on an **N** x **N** chessboard so that they cannot beat each other according to the chess rules. No two queens may be in the same column, row, and diagonal. In 1848 it was formulated for the first time by Max Bezel, a chess master, for eight queens. It was not until 1850 that Franz Nauck published the solution of 92, which was proved by an English mathematician in 1874. Later, the complex problem was generalized by Nauck to the N-Queens-Puzzle, where n queens were to be placed on an **N** x **N** chessboard. Its a viral example of backtracking algorithms.
 
-## Screenshots 
+## Showcase
 
 ![N-Queens-Problem Screenshot 1](/img/n-queens-problem-screen_01.png)
 ![N-Queens-Problem Screenshot 2](/img/n-queens-problem-screen_02.png)
 ![N-Queens-Problem Screenshot 3](/img/n-queens-problem-screen_03.png)
 ![N-Queens-Problem Screenshot 4](/img/n-queens-problem-screen_04.png)
 
-## Contributors 
+## Description
+
+This program illustrates and solves the N-queen problem using two different algorithms. Based on backtracking, an iterative and recursive method can be used.
+
+## Contributors
 
 - Mariska Steinfeldt
 - Lukas Schmitz
